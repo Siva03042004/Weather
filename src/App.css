@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  background-image: url(./Weather.jfif);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.weather{
+  border: 1px solid black;
+  width: 600px;
+  border-radius: 15%;
+  align-items: center;
+  display: grid;
+  margin: auto;
+  padding: 50px;
+  margin-top: 50px;
+  box-shadow:10px 10px 5px black;
+  opacity: 0.9;
+}
+.weather1{
+  display: inline;
+}
+h1{
+  display:grid;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size:xx-large;
+}
+h2{
+  display: flex;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size:80px;
+}
+img{
+  color: black;
+}
+input{
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 10px;
+}
+button{
+  background-color: black;
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+}
